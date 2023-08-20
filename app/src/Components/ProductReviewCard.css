@@ -1,0 +1,28 @@
+.productReviewCard{
+    margin: 1vmax;
+    background-color: white;
+    padding-bottom: 2vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.productReviewCard:hover{
+    box-shadow: 6px 6px 6px rgba(66, 66, 66, 0.5);
+    transform: translateY(-0.4vmax);
+}
+
+.productReviewCard h5{
+    margin: 2vmax 0 0.5vmax 2vmax;
+    color: rgb(94,94,94);
+}
+
+.productReviewCard span{
+    margin:0 2vmax  ;
+    color: rgb(94,94,94);
+    font-size: 1vmax;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productReviewCard b{
+    color: orangered;
+    font-size: 1vmax;
+}

@@ -1,0 +1,29 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 0.7vmax;
+}
+
+.Card:hover{
+   box-shadow: 6px 6px 6px rgba(66,66,66,0.5);
+}
+
+.Card >img{
+    width:70%;
+}
+
+.Card>p{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+}
+
+.Card>span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:orangered;
+  margin:-1vmax 0 1vmax 0;
+}

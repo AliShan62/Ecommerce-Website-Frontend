@@ -1,0 +1,7 @@
+.navoptios{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 2vmax;
+}

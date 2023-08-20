@@ -1,0 +1,20 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading div{
+    background-color: rgba(39,39,39,0.274);
+    height: 2px;
+    width: 30vw;
+}
+
+.heading p{
+    
+    margin:3vmax;
+    color: rgb(143, 140, 140);
+    font-size: 2vmax;
+    font-weight: 50;
+    font-family: Calabri,'Trebuchet MS' ,sans-serif;
+}
